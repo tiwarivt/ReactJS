@@ -6,14 +6,10 @@ This project demonstrates the "Hello World" example using three different approa
 
 ## File Structure
 
-. ├── index.html
-  ├── style.css 
-  ├── script.js 
-  └── README.md
-
-markdown
-Copy
-Edit
+├── index.html
+├── style.css
+├── script.js 
+└── README.md
 
 ### 1. `index.html`
 - **Purpose**: The main HTML file that serves as the entry point for the project.
