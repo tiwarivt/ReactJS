@@ -1,0 +1,21 @@
+/* Style for the element with id "heading" */
+/* This sets the text color of the element with id "heading" to blue */
+#heading {
+    color: blue;
+    /* Blue color for the text */
+}
+
+/* Style for the element with id "parent" */
+/* This sets the text color of the element with id "parent" to green */
+/* Any text inside this element will inherit this color unless overridden */
+#parent {
+    color: green;
+    /* Green color for the text */
+}
+
+/* Style for the element with id "child2" */
+/* This overrides any inherited color and sets the text color to red */
+#child2 {
+    color: red;
+    /* Red color for the text */
+}

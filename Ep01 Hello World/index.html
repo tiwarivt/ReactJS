@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Hello from HTML, JS, and ReactJS</title>
+  </head>
+  <body>
+    <!-- Hello World using HTML -->
+    <!-- This is the initial content rendered directly using static HTML -->
+    <div id="root">
+      <h1>Hello from HTML!</h1>
+    </div>
+
+    <!-- Hello World using plain JavaScript -->
+    <!-- Uncomment this section if you want to dynamically add content to the DOM using vanilla JavaScript -->
+    <!-- 
+    <script>
+      // Create a new h1 element
+      const heading = document.createElement("h1");
+      heading.innerHTML = "Hello from JS!"; // Set the inner HTML for the h1 element
+
+      // Select the root element and append the new heading
+      const rootJS = document.getElementById("root");
+      // root.innerHTML = ""; // Uncomment this line if you want to clear existing content
+      root.appendChild(heading); // Add the new heading as a child of the root
+    </script> 
+    -->
+
+    <!-- Adding React to the project (first method: via CDN) -->
+    <!-- React and ReactDOM libraries are included using unpkg.com CDN links -->
+    <!-- These are development versions, suitable for learning and debugging -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <!-- Hello World using ReactJS -->
+    <!-- This script contains the React code to render content dynamically -->
+    <script src="./script.js"></script>
+  </body>
+</html>
